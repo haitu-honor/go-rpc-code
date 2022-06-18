@@ -1,4 +1,4 @@
-module gorpcx-model
+module github.com/haitu-honor/go-rpcx-code
 
 go 1.17
 
