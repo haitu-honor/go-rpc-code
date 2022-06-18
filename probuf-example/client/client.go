@@ -5,7 +5,7 @@ import (
 	"flag"
 	"log"
 
-	"gorpcx-model/pb"
+	"github.com/haitu-honor/go-rpcx-code/probuf-example/pb"
 
 	"github.com/smallnest/rpcx/client"
 	"github.com/smallnest/rpcx/protocol"

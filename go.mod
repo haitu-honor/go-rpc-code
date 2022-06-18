@@ -5,6 +5,12 @@ go 1.17
 require github.com/smallnest/rpcx v1.7.4
 
 require (
+	github.com/go-redis/redis_rate/v9 v9.1.2 // indirect
+	github.com/influxdata/influxdb1-client v0.0.0-20220302092344-a9ab5670611c // indirect
+	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475 // indirect
+)
+
+require (
 	github.com/akutz/memconn v0.1.0 // indirect
 	github.com/apache/thrift v0.16.0 // indirect
 	github.com/armon/go-metrics v0.3.10 // indirect
