@@ -11,6 +11,7 @@ import (
 )
 
 var (
+	// flag go的内置库，可以参考这篇文章 https://darjun.github.io/2020/01/10/godailylib/flag/
 	addr = flag.String("addr", "localhost:8972", "server address")
 )
 
@@ -24,7 +25,8 @@ func (t *Arith) Mul(ctx context.Context, args *pb.ProtoArgs, reply *pb.ProtoRepl
 }
 
 func main() {
-	// flag.Parse()
+	// 从os.Args[1:]中解析注册的flag。必须在所有flag都注册好而未访问其值时执行
+	flag.Parse()
 	// 注册一个服务命为 Arith 的服务
 	s := server.NewServer()
 	//s.RegisterName("Arith", new(example.Arith), "")

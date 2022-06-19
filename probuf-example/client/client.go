@@ -16,7 +16,7 @@ var (
 )
 
 func main() {
-	// flag.Parse()
+	flag.Parse()
 
 	// register customized codec
 	option := client.DefaultOption
