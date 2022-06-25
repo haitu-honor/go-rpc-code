@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/haitu-honor/go-rpcx-code/probuf-example/pb"
+	"github.com/haitu-honor/go-rpcx-code/rpcx-probuf-example/pb"
 
 	"github.com/smallnest/rpcx/server"
 )
