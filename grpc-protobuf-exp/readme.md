@@ -1,2 +1,2 @@
 #####
-##### grpc使用protobuf通信小示例
+##### grpc使用protobuf规范通信小示例
