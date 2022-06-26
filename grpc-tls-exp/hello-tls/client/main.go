@@ -38,7 +38,7 @@ func main() {
 		return
 	}
 	creds := credentials.NewTLS(&tls.Config{
-		Certificates: []tls.Certificate{pair}, // 放入客户端证书
+		Certificates: []tls.Certificate{pair}, // 客户端证书
 		ServerName:   "grpctls.com",           // 这里的参数为server.conf里的 DNS
 		RootCAs:      certPool,                // 证书池
 	})
